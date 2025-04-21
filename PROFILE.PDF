@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./PROFILE_files/style.css">
+    </head><body><a href="http://127.0.0.1:5500/profile.pdf" target="_blank"></a>
+
+
+
+    <div id="navbar">
+        <h1>AADARSH DUBEY</h1>
+        <p> |9302174162| aadarsh04.dubey@gmail.com|</p>
+    </div>
+        <div class="menu-container">
+            <div class="menu">About Me</div> 
+            <div class="menu">Academics</div>
+            <div class="menu">Skills</div>
+            <div class="menu">Startups</div>
+            <div class="menu">Internships</div>
+            <div class="menu">WhyMe?</div>
+                
+            
+          </div>
+
+         
+
+
+          <div class="about-section">
+            <h2>ABOUTME</h2>
+            <p>Commerce student,<br>
+               Finance enthusiast,<br>
+               Technical analyst,<br>
+               Marketing strategist &amp;<br>
+               Coder in the making...</p>
+               
+            <p>Fusing finance, tech, and marketing expertise with my analytical mindset to drive innovative solutions.</p>
+</div>
+
+
+  
+  <div class="about-section">
+
+    <div id="academics" class="academics-section">
+        <h3>ACADEMICS</h3>
+        <p>
+          BBA, IIM Bangalore '27<br>
+          BCom(Hons), Barkatullah University Bhopal '26<br>
+          Servite'23 (12th - 82%) (10th - 92%)<br>
+          NISM Series XII Qualified
+        </p>
+      </div>
+    
+   
+
+   
+
+  </div>
+  <div class="skill-section">
+    <h2>SKILLS</h2>
+    <div class="skills-wrapper">
+      <div id="box1" class="skill-card">
+        <div class="skill-name">Financial Analyst</div>
+        <div class="skill-desc">Analyzing financial data, identifying trends, and providing insights.</div>
+      </div>
+      <div id="box2" class="skill-card">
+        <div class="skill-name">Technical Analysis</div>
+        <div class="skill-desc">1000+ hours of screen time, analyzing market trends and refining trading strategies.</div>
+      </div>
+      <div id="box3" class="skill-card">
+        <div class="skill-name">Marketing Strategist</div>
+        <div class="skill-desc">Developing and implementing effective marketing strategies.</div>
+      </div>
+      <div id="box4" class="skill-card">
+        <div class="skill-name">Coding</div>
+        <div class="skill-desc">Learning HTML, CSS, and expanding web development skills.</div>
+      </div>
+    </div>
+  </div>
+  
+    
+  
+  
+          
+        
+
+              
+              
+            
+          
+      
+
+
+      <div class="startup-section">
+        <h2>STARTUPS</h2>
+        <div class="startups-wrapper">
+          <div class="startup-card">
+            <div class="startup-name">Farming Tech</div>
+            <div class="startup-desc">
+              An app-based platform for renting farming equipment (tractors, harvesters) similar to Ola, connecting farmers with equipment owners.
+            </div>
+          </div>
+          <div class="startup-card">
+            <div class="startup-name">Brand Identity</div>
+            <div class="startup-desc">
+              Creating a unique visual and tonal identity for your business, including:
+              <ul class="identity-list">
+                <li>Logo</li>
+                <li>Color palette</li>
+                <li>Typography</li>
+                <li>Messaging</li>
+                <li>Visual style</li>
+              </ul>
+            </div>
+          </div>
+
+
+
+  
+    </div>
+  </div>
+
+  <div class="internship-section">
+    <h2>INTERNSHIPS</h2>
+    <div class="internships-wrapper">
+      <div class="internship-card">
+        <div class="internship-title">Fortune Agro Pvt Ltd</div>
+        <div class="internship-subtitle">(BCOM 2nd Year Intern) – Financial Analyst Intern</div>
+        <ul class="internship-points">
+          <li>Analyzed previous financial reports.</li>
+          <li>Compiled financial data (quantitative &amp; qualitative).</li>
+          <li>Evaluated company's financial performance and position.</li>
+        </ul>
+      </div>
+      <div class="internship-card">
+        <div class="internship-title">GB Traders (Bhopal) – Asian Paints Dealer</div>
+        <div class="internship-subtitle">(BCOM 1st Year Intern) – Business Operations Intern</div>
+        <ul class="internship-points">
+          <li>Analyzed market scope and provided insights on stock requirements.</li>
+          <li>Recommended optimal number of showrooms based on market analysis.</li>
+          <li>Evaluated financial activities and performance.</li>
+          
+       
+      </ul></div>
+
+  
+    
+      
+          
+
+   
+         
+
+
+
+        
+
+
+               
+
+      
+        </div>
+      </div><!-- WHYME SECTION -->
+      <div class="whyme-section">
+        <h2>WHYME?</h2>
+        <p>1. Transforming ideas into reality, one project at a time.</p>
+        <p>2. Where creativity meets innovation.</p>
+        <p>3. Building bridges between imagination and execution.</p>
+        <p>4. Your vision, my expertise.</p>
+        <p>5. Let's innovate, create, and thrive.</p>
+        </div>
+      
+    
+
+    
+             
+              
+      
+
+
+      
+      <a href="http://127.0.0.1:5500/profile.pdf" target="_blank" class="btn">Download CV</a>
+
+  
+      
+  
+   
+
+
+  
+  
+       
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+ </body></html>

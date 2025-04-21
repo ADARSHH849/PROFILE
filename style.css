@@ -1,0 +1,1855 @@
+#navbar{
+    height: 60px;
+    width: 1490px;
+    background-color: rgb(142, 138, 138);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 16px
+    box-sizing: border-box;
+    position:relative;
+    margin: 25px;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: #333;
+}
+p {
+    text-align: center;
+    margin: 4px 0 0;
+    font-size: 16px;   
+}
+h1 p :hover  {
+  background-color: black;
+  color: #ccc;
+  border-radius: 4px;
+}
+
+
+ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration:none;
+    color: #fff;
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.header {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px; /* creates space below the name */
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #ccc;
+    padding: 10px 0;
+  }
+  ul li a:hover {
+    color: black;
+    cursor: pointer;
+  }
+  .header h1,
+  .header p {
+    color: black; /* or whatever your default is */
+    transition: color 0.3s ease;
+    padding-top: 40px;
+  }
+  
+  .header h1:hover,
+  .header p:hover {
+    color: white;
+    cursor: default; /* or pointer if you prefer */
+  }.header h1,
+  .header p {
+    color: black; /* default color */
+    transition: color 0.3s ease;
+  }
+  
+  .header:hover h1,
+  .header:hover p {
+    color: white;
+  }
+ h2{
+  margin: 25px;
+  padding: 25px;
+ }
+
+ .about-section {
+  background-color: rgb(142, 138, 138);
+  padding: 20px;
+  padding-top: 10px; /* reduced top padding */
+  height: 300px; /* make the box taller */
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.about-section h2 {
+  color: white;
+  font-size: 2rem;
+  margin-top: 0; /* remove default margin pushing it down */
+  margin-bottom: 20px;
+}
+
+.about-section {
+  background-color: rgb(142, 138, 138);
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px; /* or adjust as needed */
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+
+.about-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+.menu-container {
+  position: relative;
+  bottom: 0; /* Align to the bottom of the navbar */
+  left: 0;
+  display: flex;
+  width: 100%
+  justify-content: flex-start;
+  gap: 10px; /* Optional spacing between items */
+  padding: 8px 16px
+}
+
+.menu {
+  flex: 1;
+  text-align: center;
+  padding: 6px 12px;
+  font-size: 18px
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.4s ease-in-out
+  margin-top: auto
+}
+
+.menu:hover {
+  background-color: black;
+  color: #fff;
+  border-radius: 4px;
+}
+h2:hover{
+  background-color: #ccc;
+  color: black;
+  border-radius: 4px;
+}
+h3:hover{
+  background-color: #ccc;
+  color: black;
+  border-radius: 4px;
+}
+.about-section h3 {
+  font-size: 1.8rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.skills-boxes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* makes it responsive */
+  gap: 20px;
+  padding: 0 10px;
+}
+
+.skill-card {
+  flex: 1;
+  min-width: 120px;
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+  background-color: #000;
+  color: #fff;
+  transform: translateY(-4px);
+}
+h4:hover{
+  background-color: #ccc;
+  color: black;
+  border-radius: 4px;
+}
+
+.skill-card {
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.skill-name {
+  font-size: 24px; /* Adjust font size */
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.skill-name:hover {
+  color: black; /* Change color to black on hover */
+}
+
+.skill-description {
+  font-size: 16px;
+  color: #555;
+  display: block;
+}
+.skill-card {
+  text-align: center;
+  margin: 15px; /* Adjust the margin to make the cards closer together */
+  padding: 15px; /* Reduce padding for smaller cards */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 200px; /* Decrease width of the skill cards */
+  font-size: 14px; /* Adjust font size for smaller text */
+}
+
+.skill-name {
+  font-size: 18px; /* Make the skill name text smaller */
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+
+.skill-name:hover {
+  color: black; /* Change color to black on hover */
+}
+
+.skill-description {
+  font-size: 12px; /* Make the skill description text smaller */
+  color: #555;
+  display: block;
+}
+
+
+.skill-section {
+  background-color: #3f3f4e; /* grey background */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-around; /* or space-between / center */
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  margin-top: 20px;
+}
+
+.skill-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skill-desc {
+  font-size: 14px;
+}
+
+.skill-section {
+  background-color: #3f3f4e; /* grey background */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-around; /* or space-between / center */
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  margin-top: 20px;
+}
+
+.skill-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skill-desc {
+  font-size: 14px;
+}
+.skill-section {
+  background-color: #3f3f4e; /* grey background */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-around; /* or space-between / center */
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  margin-top: 20px;
+}
+
+.skill-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.skill-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.skill-desc {
+  font-size: 14px;
+}.skill-section {
+  background-color: rgb(142, 138, 138); /* Match 'about-section' background */
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px; /* Make it same height */
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+
+.academics-section h3:hover {
+  background-color: #ccc;
+  color: black;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+.internship-section {
+  background-color: rgb(142, 138, 138);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 30px auto;
+  width: 80%;
+  font-family: sans-serif;
+}
+
+.internship-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 300px;
+  color: black;
+  text-align: left;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.internship-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.internship-role {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.internship-desc {
+  font-size: 14px;
+  padding-left: 20px;
+}
+.internship-section {
+  background-color: rgb(142, 138, 138);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 30px auto;
+  width: 80%;
+  font-family: sans-serif;
+}
+
+.internship-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 300px;
+  color: black;
+  text-align: left;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.internship-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.internship-role {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.internship-desc {
+  font-size: 14px;
+  padding-left: 20px;
+}
+
+
+.internship-section {
+  background-color: rgb(142, 138, 138);
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin: 30px auto;
+  width: 80%;
+  font-family: sans-serif;
+}
+
+.internship-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 300px;
+  color: black;
+  text-align: left;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.internship-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.internship-role {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.internship-desc {
+  font-size: 14px;
+  padding-left: 20px;
+}
+.internship-desc {
+  font-size: 14px;
+  padding-left: 20px;
+  list-style-type: disc;
+  word-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+  margin: 0;
+  padding: 0 15px;
+}
+
+.internship-card ul {
+  padding-left: 20px;
+}
+
+.internship-card li {
+  margin-bottom: 8px;
+  text-align: left;
+}
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  color: black;
+  text-align: left;
+}
+
+.internship-desc {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.internship-desc li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.section-container {
+  background-color: #3a3f58;
+  padding: 30px;
+  border-radius: 15px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 25px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  text-align: left;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+.internship-section {
+  background-color: rgb(142, 138, 138); /* same as About Me */
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.internship-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+.internship-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: left;
+  color: black;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.internship-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.internship-card p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.internship-card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.internship-card ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}.internship-card ul {
+  display: block;       /* Ensure vertical layout */
+  padding-left: 20px;
+  list-style-type: disc;
+  margin: 0;
+}
+
+.internship-card ul li {
+  display: list-item;   /* Force vertical list items */
+  margin-bottom: 8px;
+  font-size: 14px;
+}.internships-wrapper {
+  display: flex;
+  justify-content: center; /* centers the cards */
+  gap: 40px; /* adds space between the two boxes */
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.internship-section {
+  background-color: rgb(142, 138, 138); /* same grey as AboutMe */
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+
+.internship-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.internships-wrapper {
+  display: flex;
+  justify-content: center; /* center the boxes */
+  gap: 40px; /* spacing between boxes */
+  flex-wrap: wrap;
+}
+
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: left;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+.internship-card h3, .internship-card h4 {
+  margin: 5px 0;
+  font-weight: bold;
+  font-size: 16px;
+}
+.internship-card h4 {
+  font-style: italic;
+  font-weight: normal;
+}
+.internship-card ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+.internship-card ul li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+.internship-section {
+  background-color: rgb(142, 138, 138); /* Same as updated skill/about section */
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+
+.internships-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 250px;
+  text-align: left;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.internship-title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.internship-subtitle {
+  font-style: italic;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.internship-card ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.internship-card li {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+
+.startup-section {
+  background-color: #3f3f4e; /* grey background */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.startups-wrapper {
+  display: flex;
+  justify-content: space-around; /* or space-between / center */
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  margin-top: 20px;
+}
+
+.startup-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.startup-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.startup-desc {
+  font-size: 14px;
+}
+
+
+/* Internship Section (No changes needed here) */
+.internship-section {
+  background-color: rgb(142, 138, 138); /* same as About Me */
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.internship-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+.internship-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: left;
+  color: black;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.internship-card h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.internship-card p {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.internship-card ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.internship-card ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+ Startup Section (Grey box like Internship section)
+.startup-section {
+  background-color: rgb(142, 138, 138);  same grey background as Internship 
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+.startup-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+.startups-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.startup-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: left;
+  color: black;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.startup-card .startup-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.startup-card .startup-desc {
+  font-size: 14px;
+
+}
+
+.startup-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.startup-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.startup-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+  animation: popIn 0.6s ease;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+/* Section Styling */
+.startup-section {
+  background-color: #3f3f4e;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Wrapper (Row) Styling */
+.startups-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Card Styling */
+.startup-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.startup-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Styling */
+.startup-icon {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+/* Name Styling */
+.startup-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Description Styling */
+.startup-desc {
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Brand Identity List Styling */
+.identity-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+  list-style-type: disc;
+}
+
+/* Responsive Fix */
+@media screen and (max-width: 700px) {
+  .startups-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .startup-card {
+    width: 90%;
+  }
+}
+.startup-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.startup-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.startup-desc {
+  font-size: 14px;
+} 
+.startup-section{
+  background-color: rgb(142, 138, 138); /* Match 'about-section' background */
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px; /* Make it same height */
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+/* Description Styling */
+.startup-desc {
+  font-size: 14px;
+  text-align: left;
+  word-wrap: break-word; /* prevents long words from overflowing */
+  overflow-wrap: break-word;
+}
+
+/* Brand Identity List Styling */
+.identity-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+  list-style-type: disc;
+  display: block;
+}
+
+.identity-list li {
+  display: list-item; /* Force vertical stacking */
+  margin-bottom: 6px; /* Space between each item */
+}
+/* Card content alignment */
+.startup-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* centers all child content horizontally */
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: left;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}/* Description container */
+.startup-desc {
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center content horizontally */
+}
+
+/* Identity list */
+.identity-list {
+  list-style: none; /* remove default bullets */
+  padding: 0;
+  margin: 8px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* center each list item */
+}
+
+/* Each list item */
+.identity-list li {
+  margin: 2px 0;
+  text-align: center;
+}
+.startup-card:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+.startup-card {
+  background-color: #f5f5f5;
+  color: black;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Section styling */
+.internship-section {
+  background-color: #3f3f4e;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+}
+
+/* Layout styling */
+.internships-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Card styling */
+.internship-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 280px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+.internship-card:hover {
+  background-color: black;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Title & subtitle */
+.internship-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.internship-subtitle {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+/* Bullet styling */
+.internship-desc {
+  text-align: left;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.internship-desc li {
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+  .internships-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .internship-card {
+    width: 90%;
+  }
+}.internship-wrapper {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.internship-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.internship-desc {
+  font-size: 14px;
+} 
+.internship-section{
+  background-color: rgb(142, 138, 138); /* Match 'about-section' background */
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px; /* Make it same height */
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+
+.section-divider {
+  border: none;
+  height: 2px;
+  background-color: #fff;
+  margin: 60px 0;
+  opacity: 0.2;
+}
+
+/* Startup Section */
+.startup-section {
+  background-color:rgb(142, 138, 138) ;  /* Grey for Startup */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;  /* Space below the section */
+}
+
+/* Internship Section */
+.internship-section {
+  background-color: rgb(142, 138, 138);  /* Slightly lighter grey for Internship */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 40px;  /* Space above the section */
+}
+
+
+.internship-desc {
+  text-align: left; 
+  padding-left: 0;
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center the items vertically */
+  align-items: left; /* Center them horizontally */
+  height: 100%; /* Ensure it takes up full height of the card */
+  margin-top: 12px;
+}
+
+/* Internship Description List Item */
+.internship-desc li {
+  margin-bottom: 3px; /* Adjust spacing between items */
+}
+
+.startup-section {
+  margin-bottom: 60px; /* Add more space below */
+}
+.internship-section {
+  margin-top: 60px; /* Add space above */
+}
+
+/* Startup Section */
+.startup-section {
+  background-color: #3f3f4e;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1); /* Shadow for depth */
+}
+
+/* Internship Section */
+.internship-section {
+  background-color: #4a4a5a;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1); /* Shadow for depth */
+}
+
+/* Startup Section */
+.startup-section {
+  background-color: #3f3f4e; /* Grey color for Startup */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+/* Internship Section */
+.internship-section {
+  background-color: rgb(142, 138, 138); /* Lighter grey for Internship */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-top: 40px;
+  min-height: 500px; /* Ensure enough height for the section */
+}
+
+/* Startup Card */
+.startup-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 250px; /* Adjust width of startup card */
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Internship Description */
+.internship-desc {
+  text-align: center; /* Center text horizontally */
+  padding-left: 0; /* Remove default padding */
+  list-style-type: disc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 12px;
+}
+
+/* Internship Description List Item */
+.internship-desc li {
+  margin-bottom: 6px; /* Adjust spacing between items */
+}
+
+/* Startups Wrapper (Row) Layout */
+.startups-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between cards */
+  margin-top: 20px;
+}.startup-section {
+  background-color: #3f3f4e; /* grey background */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.startup-wrapper {
+  display: flex;
+  justify-content: space-around; /* or space-between / center */
+  align-items: flex-start;
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  margin-top: 20px;
+}
+
+.startup-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 200px;
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+/* Startup Section */
+.startup-section {
+  background-color: #3f3f4e; /* Grey background for startup section */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px; /* Space below to separate from next section */
+}
+
+/* Startups Wrapper (Row Layout) */
+.startups-wrapper {
+  display: flex;
+  justify-content: space-around; /* Space out cards */
+  flex-wrap: wrap; /* Allow cards to wrap on smaller screens */
+  gap: 20px; /* Space between cards */
+  margin-top: 20px;
+}
+
+/* Startup Card */
+.startup-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 280px; /* Set the width of the cards */
+  text-align: center;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.startup-card:hover {
+  transform: translateY(-5px); /* Lift the card slightly on hover */
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Startup Name */
+.startup-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Startup Description */
+.startup-desc {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 10px;
+}
+
+/* Brand Identity List Styling */
+.identity-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  text-align: left;
+  list-style-type: disc;
+}
+
+.identity-list li {
+  margin-bottom: 6px; /* Space between each item */
+}
+
+/* Responsive Fix for Smaller Screens */
+@media screen and (max-width: 700px) {
+  .startups-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .startup-card {
+    width: 90%;
+  }
+}
+
+/* INTERNSHIP SECTION */
+.internship-section {
+  background-color: rgb(142, 138, 138); /* grey */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.internships-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.internship-card {
+  background-color: #f5f5f5;
+  color: black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.internship-card:hover {
+  transform: translateY(-5px);
+}
+
+.internship-title {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.internship-subtitle {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.internship-points {
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+}
+
+/* STARTUP SECTION */
+.startup-section {
+  background-color: rgb(142, 138, 138); /* darker grey */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+}
+
+.startups-wrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.startup-card {
+  background-color: #f5f5f5;
+  color: black;
+  padding: 40px;
+  margin: 40px;
+  border-radius: 40px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1)
+  transition: transform 0.3s ease;
+}
+
+.startup-card:hover {
+  transform: translateY(-5px);
+}
+
+.startup-name {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.startup-desc {
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Brand Identity List */
+.identity-list {
+  margin-top: 10px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.identity-list li {
+  margin-bottom: 6px;
+}
+
+/* Responsive */
+@media screen and (max-width: 700px) {
+  .internships-wrapper,
+  .startups-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .internship-card,
+  .startup-card {
+    width: 90%;
+  }
+}
+/* WHYME Section Styling */
+.whyme-section {
+  background-color: #3f3f4e; /* Same grey as startup */
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.whyme-list {
+  margin-top: 20px;
+  list-style-type: disc;
+  padding-left: 20px;
+  text-align: left;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.whyme-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* WHYME Section Styling */
+.whyme-section {
+  background-color: #3f3f4e;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  color: white;
+  margin-bottom: 40px;
+}
+
+/* WHYME Card (matches startup-card styling) */
+.whyme-card {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 20px auto 0;
+  border-radius: 10px;
+  width: 280px;
+  text-align: left;
+  color: black;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* WHYME List */
+.whyme-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.whyme-list li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.whyme-section {
+  background-color: rgb(142, 138, 138); /* Same as about-section */
+  padding: 30px 40px;
+  text-align: center;
+  margin: 30px auto;
+  width: 80%;
+  min-height: 350px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+}
+
+.whyme-section h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.whyme-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin: 10px 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.academics-section {
+  background-color: rgb(142, 138, 138);
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  text-align: center;
+  width: 80%;
+  margin: 30px auto;
+  box-sizing: border-box;
+}
+
+.academics-section h3 {
+  margin-bottom: 30px; /* Adds space below the heading */
+  font-size: 2rem;
+}
+
+.academics-section p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+.internship {
+  margin-bottom: 60px; /* Adds space below internships */
+}
+
+.startup-box {
+  width: 60%; /* Adjust width */
+  margin: 0 auto; /* Center it */
+  padding: 15px;
+  background-color: #f0f0f0;
+  border-radius: 15px;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #eaeaea;
+  padding: 20px;
+}
+
+.grey-box {
+  background-color: #3b3e50;
+  color: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  background-color: #f9f9f9;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  width: 45%;
+  min-height: 200px;
+}
+
+.small-box {
+  width: 40%;
+}
+
+ol {
+  margin-left: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
